@@ -2,7 +2,7 @@
 
 #Los seriadores tambien proporcionan deserializadores lo cual hace el proceso inverso, JSON/XML a instancias de modelos despues de validar las entradas 
 
-#Datos extraidos de modelos creados
+#Datos extraidos de modelos creados (Group y User ya estan predefinidos en Django)
 from django.contrib.auth.models import Group, User 
 #Libreria con herramientas para serializar/deserializar
 from rest_framework import serializers
