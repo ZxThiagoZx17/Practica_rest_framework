@@ -1,2 +1,18 @@
 User: admin
 Password: admin
+
+Se puede interactuar con la API mediante el portal Web de Django, hay varias maneras de hacerlo, en este caso es necesaria la autenticacion para ingresar a los recursos
+
+Ingreso a API por modelo
+http://127.0.0.1:8000/users/
+http://127.0.0.1:8000/groups/
+
+Ingreso a portal de autenticacion
+http://127.0.0.1:8000/api-auth/login/
+
+Plataformas para testear APIs
+- curl
+- Postman 
+- Insomnia 
+
+Posterior a eso es aconsejable realizar pruebas 
