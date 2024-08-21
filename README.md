@@ -1,0 +1,2 @@
+Practica basica REST FRAMEWORK DJANGO
+
